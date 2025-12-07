@@ -1,0 +1,5 @@
+resource_group_name = "rg-terraform-vm-demo"
+vm_name             = "tf-linux-vm"
+admin_username      = "terraformadmin"
+admin_password      = "P@ssw0rd12345!"
+location            = "Central India"
