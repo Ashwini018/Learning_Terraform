@@ -1,5 +1,3 @@
-
-
 resource "azurerm_kusto_cluster" "this" {
   name                = var.cluster_name
   location            = var.location
