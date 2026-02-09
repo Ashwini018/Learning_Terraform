@@ -14,6 +14,9 @@ steps:
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
 
+- task: TerraformInstaller@1
+  inputs:
+    terraformVersion: 'latest'
 - task: AzureCLI@2
   inputs:
     azureSubscription: 'Azure subscription 1(99263c7c-4421-4323-b3c6-4670fea796b1)'
@@ -25,6 +28,7 @@ steps:
       terraform validate
       terraform plan
       terraform apply -auto-approve
+
 
 - script: |
     echo Add other tasks to build, test, and deploy your project.
