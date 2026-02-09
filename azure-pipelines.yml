@@ -24,7 +24,7 @@ steps:
     scriptLocation: 'inlineScript'
     inlineScript: |
       cd $(System.DefaultWorkingDirectory)/AzureDataExplorer
-      terraform init
+      terraform init -reconfigure
       terraform validate
       terraform plan
       terraform apply -auto-approve
