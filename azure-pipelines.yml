@@ -23,7 +23,7 @@ steps:
     scriptType: 'bash'
     scriptLocation: 'inlineScript'
     inlineScript: |
-      cd $(System.DefaultWorkingDirectory)/Learning_Terraform/AzureDataExplorer
+      cd $(System.DefaultWorkingDirectory)/AzureDataExplorer
       terraform init
       terraform validate
       terraform plan
