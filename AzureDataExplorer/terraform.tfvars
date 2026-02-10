@@ -17,7 +17,7 @@ clusters = {
   }
   adxtesting03 = {
     location    = "East US"
-    databases   = ["testDb01", "testDB02", "testDB03", "testDB04"]
+    databases   = ["testDb01", "testDB02", "testDB03", "testDB04", "testDb05"]
     sku         = "Dev(No SLA)_Standard_E2a_v4"
     Environment = "Test"
     capacity    = 1
